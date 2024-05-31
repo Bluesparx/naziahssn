@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/naziahssn/static/css/main.f55313f3.css",
+    "main.css": "/naziahssn/static/css/main.26b0ffc4.css",
     "main.js": "/naziahssn/static/js/main.e80221bc.js",
     "static/media/profile.png": "/naziahssn/static/media/profile.4a20cb96aba9af2b41b5.png",
     "static/media/logo.png": "/naziahssn/static/media/logo.f747f752b62a8d1c723c.png",
@@ -14,11 +14,11 @@
     "static/media/l1.PNG": "/naziahssn/static/media/l1.fc89b2b7b3c2a4e00b8f.PNG",
     "static/media/l3.PNG": "/naziahssn/static/media/l3.f7f0c248fae70e5e3916.PNG",
     "index.html": "/naziahssn/index.html",
-    "main.f55313f3.css.map": "/naziahssn/static/css/main.f55313f3.css.map",
+    "main.26b0ffc4.css.map": "/naziahssn/static/css/main.26b0ffc4.css.map",
     "main.e80221bc.js.map": "/naziahssn/static/js/main.e80221bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f55313f3.css",
+    "static/css/main.26b0ffc4.css",
     "static/js/main.e80221bc.js"
   ]
 }
