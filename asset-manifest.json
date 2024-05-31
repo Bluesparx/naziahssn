@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/naziahssn/static/css/main.f55313f3.css",
+    "main.js": "/naziahssn/static/js/main.e80221bc.js",
+    "static/media/profile.png": "/naziahssn/static/media/profile.4a20cb96aba9af2b41b5.png",
+    "static/media/logo.png": "/naziahssn/static/media/logo.f747f752b62a8d1c723c.png",
+    "static/media/Nazia_Resume.pdf": "/naziahssn/static/media/Nazia_Resume.1f1a0f32f55ccea8f4ac.pdf",
+    "static/media/s2.PNG": "/naziahssn/static/media/s2.03dceda472ab9320a07d.PNG",
+    "static/media/s5.PNG": "/naziahssn/static/media/s5.707a69878d6acbebf86e.PNG",
+    "static/media/s3.PNG": "/naziahssn/static/media/s3.ff8e6d39e7f3501a5c61.PNG",
+    "static/media/s1.PNG": "/naziahssn/static/media/s1.1f9a5a95a6da4b9f8991.PNG",
+    "static/media/l4.PNG": "/naziahssn/static/media/l4.5fded867adfc633b967b.PNG",
+    "static/media/l2.PNG": "/naziahssn/static/media/l2.9089a0cdbe87ce4befcd.PNG",
+    "static/media/l1.PNG": "/naziahssn/static/media/l1.fc89b2b7b3c2a4e00b8f.PNG",
+    "static/media/l3.PNG": "/naziahssn/static/media/l3.f7f0c248fae70e5e3916.PNG",
+    "index.html": "/naziahssn/index.html",
+    "main.f55313f3.css.map": "/naziahssn/static/css/main.f55313f3.css.map",
+    "main.e80221bc.js.map": "/naziahssn/static/js/main.e80221bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f55313f3.css",
+    "static/js/main.e80221bc.js"
+  ]
+}
