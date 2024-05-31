@@ -8,9 +8,24 @@ import l3 from '../../assets/l3.PNG';
 import l4 from '../../assets/l4.PNG';
 const Contact = () => {
     const form = useRef();
+
+    const [formData, setFormData] = useState({
+      from_name: '',
+      from_email: '',
+      message: ''
+    });
+
+    const handleChange = (e) => {
+      setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
     const sendEmail = (e) => {
         e.preventDefault();
-    
+
+        if (!formData.from_name || !formData.from_email || !formData.message) {
+          swal('Error', 'Please fill in all fields.', 'error');
+          return;
+        }
         emailjs
           .sendForm('service_5kw7756', 'template_75b0b1n', form.current, '-_IFkWgoWlYfwcVla'
           )
@@ -30,9 +45,12 @@ const Contact = () => {
       <span className='ctText'>Get in touch :)</span>
       <div className='cts'>
         <form className='ctForm' ref={form}  onSubmit={sendEmail}>
-        <input className='txt'type='text' name='from_name' placeholder='Your Name'/>
-        <input className='email'type='email' name='from_email'placeholder='Your Email'/>
-        <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
+        <input className='txt'type='text' name='from_name' value={formData.from_name} 
+            onChange={handleChange}placeholder='Your Name'/>
+        <input className='email' type='email'  name='from_email' value={formData.from_email} 
+            onChange={handleChange}placeholder='Your Email'/>
+        <textarea className='msg' name='message' rows="5" value={formData.message} 
+            onChange={handleChange} placeholder='Your Message'></textarea>
         <button className='submitBt'type='submit' value="Send">Send</button>
         </form>
         <div className='Links'>
