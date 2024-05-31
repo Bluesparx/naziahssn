@@ -1,0 +1,97 @@
+#ctPage {
+    overflow:hidden;
+    width: 100vw;
+    max-width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.ctTitle{
+    padding: 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.ctText {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(245, 222, 179, 0.8);
+    max-width: 55vw;
+    margin-bottom: 1.5rem;
+} 
+
+.cts {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.ctForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 60vw;
+    margin: 1rem;
+}
+.txt, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40vw;
+    margin: 0.5rem 0;
+    padding: 1rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 1rem;
+}
+.swal-overlay {
+    background-color: rgba(245, 222, 179,0.2);
+  }
+.Links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.link {
+    border-radius: 0.5rem;
+    width: 3rem;
+    display: block;
+}
+.link:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.submitBt {
+    width: 8rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 153,0.75);
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+.submitBt:hover{
+    background: rgba(255, 255, 153,0.9);
+    color: black;
+}
+
+
+@media (max-width: 700px) {
+    .ctForm {
+        max-width: 75vw;
+    }
+    .txt, .email, .msg {
+        max-width: 75vw;
+        border-radius: 1rem;
+    }
+    .submitBt {
+        max-width: 75vw;
+        width: 75vw;
+        border-radius: 1rem;
+    }
+}

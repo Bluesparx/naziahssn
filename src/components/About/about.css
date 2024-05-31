@@ -1,0 +1,78 @@
+#about {
+    overflow:hidden;
+    width: 100vw;
+    max-width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.abTitle{
+    padding: 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.abText {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(245, 222, 179, 0.8);
+    max-width: 55vw;
+    margin-bottom: 1.5rem;
+} 
+.abTable {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.abList {
+    width: 50vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    background: rgb(37, 33, 50);
+    margin: 1rem;
+    padding: 0 1rem; 
+    border-radius: 1rem;
+}
+.abList:hover {
+    box-shadow: 0 0 1px 2px rgba(245, 222, 179, 0.2);
+    transform: scale(1.01);
+    transition: 10ms;
+}
+.abIg {
+    width: 6rem;
+    height: 15vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.abIg img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+.skillTxt {
+    padding: 1rem 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.skillTxt h2 {
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 576px) {
+    .abTable {
+        width: 80vw;
+    }
+    .abList {
+        width: 65vw;
+        height: 18vh;
+    }
+}
