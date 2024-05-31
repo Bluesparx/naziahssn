@@ -80,37 +80,3 @@
     color: black;
 }
 
-
-@media (max-width: 700px) {
-    .ctForm {
-        max-width: 75vw;
-    }
-    .txt, .email, .msg {
-        max-width: 75vw;
-        border-radius: 1rem;
-    }
-    .submitBt {
-        max-width: 75vw;
-        width: 75vw;
-        border-radius: 1rem;
-    }
-}
-
-@media (max-width: 400px) {
-    #ctPage {
-        width: 100vw;
-        max-width: 50vw;
-    }
-    .ctForm {
-        max-width: 50vw;
-    }
-    .txt, .email, .msg {
-        max-width: 40vw;
-        border-radius: 1rem;
-    }
-    .submitBt {
-        max-width: 40vw;
-        width: 50vw;
-        border-radius: 1rem;
-    }
-}
