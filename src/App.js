@@ -9,6 +9,7 @@ import Footer from "./components/Footer/footer";
 function App() {
   return (
     <div className="App">
+      <title>Nazia Hassan</title>
       <Navbar/>
       <Intro/>
       <About/>
