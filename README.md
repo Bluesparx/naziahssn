@@ -1,7 +1,7 @@
 # Personal Portfolio
 I'm an undergraduate third-year student at IGDTUW, New delhi.\
 
-My portfolio efficiently presents all the skills and projects, along with an option to get in touch with me. The page is live at https://bluesparx.github.io/naziahssn/\
+My portfolio efficiently presents all the skills and projects, along with an option to get in touch with me. The page is live at https://bluesparx.github.io/naziahssn/
 I hope you like it 😊
 
 
