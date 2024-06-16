@@ -56,7 +56,7 @@
 }
 
 .fc .skillTitle, .fc .skillTxt {
-    overflow: auto;
+    /* overflow: auto; */
     word-wrap: break-word;
     white-space: normal;
 }

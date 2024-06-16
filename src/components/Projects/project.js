@@ -33,8 +33,8 @@ const skillCards = [
     },
     {
       id:4,
-      skill: 'Blogging website',
-      exp: 'Designed and developed a static blog website using HTML and CSS.'
+      skill: 'English-to-Spanish Translator',
+      exp: 'Designed and developed a machine learning model to translate text from English to Spanish using state-of-the-art Transformer. The Transformer model was implemented using python tailored to translate a sentence character-by-character.'
     },
   ]
 

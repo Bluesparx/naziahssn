@@ -28,8 +28,7 @@ const About = () => {
         <div className='abList'>
         <span className='abIg'><img src={s3} alt=''/></span>
           <div className='skillTxt'>
-            <h2>UI/UX</h2>
-            <p>Figma, User Experience</p>
+            <h2>Machine Learning</h2>
           </div>
         </div>
         <div className='abList'>
