@@ -42,13 +42,13 @@
 
 .fc .front {
     background: rgb(20,20,20);
-    color: white;
+    color: rgb(238, 99, 99);
     z-index: 2;
     padding: 2.5rem;
 }
 
 .fc .back {
-    background: wheat;
+    background: rgb(238, 99, 99, 0.5);
     color: black;
     transform: rotateY(180deg);
     z-index: 1;

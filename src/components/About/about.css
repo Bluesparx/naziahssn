@@ -17,7 +17,7 @@
 .abText {
     font-size: 1rem;
     font-weight: 200;
-    color: rgba(245, 222, 179, 0.8);
+    color: rgb(238, 99, 99);
     max-width: 55vw;
     margin-bottom: 1.5rem;
 } 
@@ -33,13 +33,13 @@
     height: 15vh;
     display: flex;
     flex-direction: row;
-    background: rgb(37, 33, 50);
+    background: rgb(238, 99, 99, 0.2);
     margin: 1rem;
     padding: 0 1rem; 
     border-radius: 1rem;
 }
 .abList:hover {
-    box-shadow: 0 0 1px 2px rgba(245, 222, 179, 0.2);
+    box-shadow: 0 0 1px 2px rgba(245, 222, 179, 0.3);
     transform: scale(1.01);
     transition: 10ms;
 }

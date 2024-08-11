@@ -9,7 +9,6 @@ export const intro = () => {
         <div className='introContent'>
             <span className='hello'>Hello,</span>
             <span className='introTxt'>I'm <span className='name'>Nazia</span><br/>Software Developer</span>
-            <p className='introPara' >I'm a skilled and passionate web developer with experience in creating visually appealing websites.</p>
             <Link><button className='btn' onClick={()=>{
               document.getElementById('ctPage').scrollIntoView({behavior: 'smooth'});
             }}><img src={hire} alt="" className='hire'/>Contact me</button></Link>

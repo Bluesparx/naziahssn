@@ -24,13 +24,13 @@
 }
 
 .active {
-    color: yellow;
+    color: rgb(238, 99, 99);
 }
 
 .desktopMenuList:hover {
-    color: yellow;
+    color: rgb(238, 99, 99);
     padding-bottom: 0.8rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(238, 99, 99);
     transition: 100ms;
 }
 
@@ -51,16 +51,16 @@
     border-radius: 0.5rem;
 }
 .PhMenu .active {
-    color: wheat;
+    color: rgb(238, 99, 99);
 }
 .MenuList {
     padding: 0.5rem;
     text-align: left;
     cursor: pointer;
-    color: wheat;
+    color: rgb(238, 99, 99);
 }
 .MenuList:hover {
-    background: rgba(255,255,0,0.1);
+    background: rgb(238, 99, 99, 0.1);
     color: white;
 }
 

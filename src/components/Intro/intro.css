@@ -23,6 +23,7 @@
     font-weight: 700;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -30,23 +31,25 @@
     font-size: 1.8rem;
     font-weight: 200;
     padding-bottom: 0.5rem;
-    width: 60vw;
+    width: 50vw;
 }
-
+.introTxt {
+    width:50vw;
+}
 .name {
-    color: yellow;
+    color: rgb(238, 99, 99);
 }
 
 .introPara {
     font-size: large;
-    color: rgba(245, 222, 179, 0.8);
+    color:rgb(240, 128, 128);
     font-weight: 100;
     width: 60vw;
     padding: 1rem 0;
 }
 
 .btn {
-    background: rgb(245, 222, 179);
+    background: rgb(240, 128, 128, 0.8);
     padding: 0.5rem;
     padding-right: 0.8rem;
     margin: 1.5rem 0;
@@ -58,7 +61,7 @@
     font-weight: 550;
 }
 .btn:hover {
-    background: rgb(255, 224, 168);
+    background: rgb(255, 137, 137);
     transform: scale(1.02);
     transition: 0.3s;
 }
