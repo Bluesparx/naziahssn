@@ -13,11 +13,12 @@
     padding: 3rem;
     font-size: 3rem;
     font-weight: 600;
+    color:rgba(252, 147, 173, 0.8);
 }
 .ctText {
     font-size: 1rem;
     font-weight: 200;
-    color: rgba(238, 99, 99, 0.8);
+    color: #FC93AD;
     max-width: 55vw;
     margin-bottom: 1.5rem;
 } 
@@ -43,12 +44,12 @@
     margin: 0.5rem 0;
     padding: 1rem 1rem;
     background: rgba(255, 255, 255, 0.1);
-    color: rgb(238, 99, 99);
+    color: rgb(252, 147, 173);
     border: none;
     border-radius: 1rem;
 }
 .swal-overlay {
-    background-color: rgba(238, 99, 99, 0.6);
+    background-color: #FC93AD;
   }
 .Links {
     display: flex;
@@ -64,19 +65,20 @@
 }
 .link:hover {
     transform: scale(1.01);
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px 1px rgb(252, 147, 173, 0.5);
 }
 .submitBt {
     width: 8rem;
     margin: 1rem;
     border: none;
     border-radius: 0.25rem;
-    background: rgb(238, 99, 99);
+    background: rgba(252, 147, 173, 0.8);
     padding: 0.5rem 0;
+    color:black;
     cursor: pointer;
 }
 .submitBt:hover{
-    background: rgba(238, 99, 99, 0.8);
-    color: rgba(0, 0, 0, 0.5);
+    background: rgb(252, 147, 173);
+    color: black;
 }
 

@@ -17,7 +17,7 @@
 .rtText {
     font-size: 1rem;
     font-weight: 200;
-    color: rgb(238, 99, 99);
+    color: rgba(252, 147, 173, 0.8);
     max-width: 55vw;
     margin-bottom: 4rem;
 } 
@@ -33,7 +33,7 @@
 }
 
 .dwBtn, .vwBtn {
-    background: rgb(238, 99, 99, 0.8);
+    background: rgb(252, 147, 173, 0.8);
     padding: 1rem 2rem;
     font-size: medium;
     font-weight: 400;
@@ -48,7 +48,7 @@
     margin-left: 5vw;
 }
 .dwBtn:hover ,.vwBtn:hover {
-    box-shadow: 0 0 1px 2px rgb(238, 99, 99, 0.3);
+    box-shadow: 0 0 1px 2px rgb(252, 147, 173);
     transform: scale(1.01);
     transition: 10ms;
 }

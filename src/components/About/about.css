@@ -13,11 +13,12 @@
     padding: 3rem;
     font-size: 3rem;
     font-weight: 600;
+    color:rgba(252, 147, 173, 0.8);
 }
 .abText {
     font-size: 1rem;
     font-weight: 200;
-    color: rgb(238, 99, 99);
+    color: #FC93AD;
     max-width: 55vw;
     margin-bottom: 1.5rem;
 } 
@@ -33,13 +34,14 @@
     height: 15vh;
     display: flex;
     flex-direction: row;
-    background: rgb(238, 99, 99, 0.2);
+    background: rgb(80,80,80);
     margin: 1rem;
     padding: 0 1rem; 
+    color: #FC93AD;
     border-radius: 1rem;
 }
 .abList:hover {
-    box-shadow: 0 0 1px 2px rgba(245, 222, 179, 0.3);
+    box-shadow: 0 0 1px 2px #cf9da7;
     transform: scale(1.01);
     transition: 10ms;
 }

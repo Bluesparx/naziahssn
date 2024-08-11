@@ -41,14 +41,14 @@
 }
 
 .fc .front {
-    background: rgb(20,20,20);
-    color: rgb(238, 99, 99);
+    background: rgb(80, 80, 80);
+    color: rgb(252, 147, 173, 0.8);
     z-index: 2;
     padding: 2.5rem;
 }
 
 .fc .back {
-    background: rgb(238, 99, 99, 0.5);
+    background: rgb(252, 147, 173, 0.6);
     color: black;
     transform: rotateY(180deg);
     z-index: 1;

@@ -24,11 +24,11 @@
 }
 
 .active {
-    color: rgb(238, 99, 99);
+    color: rgb(252, 147, 173);
 }
 
 .desktopMenuList:hover {
-    color: rgb(238, 99, 99);
+    color: rgb(252, 147, 173);
     padding-bottom: 0.8rem;
     border-bottom: 3px solid rgb(238, 99, 99);
     transition: 100ms;

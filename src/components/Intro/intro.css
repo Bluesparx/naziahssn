@@ -1,5 +1,5 @@
 #intro {
-    height: calc(100vh - 5rem);
+    height: 70vh;
     width: 100vw;
     max-width: 90vw;
     margin: 0 auto;
@@ -37,19 +37,19 @@
     width:50vw;
 }
 .name {
-    color: rgb(238, 99, 99);
+    color: rgb(252, 147, 173);
 }
 
 .introPara {
     font-size: large;
-    color:rgb(240, 128, 128);
+    color:rgba(252, 147, 173, 0.8);
     font-weight: 100;
     width: 60vw;
     padding: 1rem 0;
 }
 
 .btn {
-    background: rgb(240, 128, 128, 0.8);
+    background: rgba(252, 147, 173, 0.8);
     padding: 0.5rem;
     padding-right: 0.8rem;
     margin: 1.5rem 0;
@@ -61,7 +61,7 @@
     font-weight: 550;
 }
 .btn:hover {
-    background: rgb(255, 137, 137);
+    background: rgb(252, 147, 173);
     transform: scale(1.02);
     transition: 0.3s;
 }
