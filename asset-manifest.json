@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/naziahssn/static/css/main.20accccb.css",
+    "main.css": "/naziahssn/static/css/main.b53d2fda.css",
     "main.js": "/naziahssn/static/js/main.7814083e.js",
     "static/media/Nazia_Resume.pdf": "/naziahssn/static/media/Nazia_Resume.591baaf2eaa58a6c5a8d.pdf",
     "static/media/logo.png": "/naziahssn/static/media/logo.f747f752b62a8d1c723c.png",
@@ -13,11 +13,11 @@
     "static/media/l1.PNG": "/naziahssn/static/media/l1.fc89b2b7b3c2a4e00b8f.PNG",
     "static/media/l3.PNG": "/naziahssn/static/media/l3.f7f0c248fae70e5e3916.PNG",
     "index.html": "/naziahssn/index.html",
-    "main.20accccb.css.map": "/naziahssn/static/css/main.20accccb.css.map",
+    "main.b53d2fda.css.map": "/naziahssn/static/css/main.b53d2fda.css.map",
     "main.7814083e.js.map": "/naziahssn/static/js/main.7814083e.js.map"
   },
   "entrypoints": [
-    "static/css/main.20accccb.css",
+    "static/css/main.b53d2fda.css",
     "static/js/main.7814083e.js"
   ]
 }
