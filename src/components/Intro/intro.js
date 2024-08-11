@@ -1,6 +1,5 @@
 import React from 'react';
 import './intro.css';
-import bg from '../../assets/profile.png';
 import hire from '../../assets/hire.png';
 import { Link } from 'react-scroll';
 
@@ -15,7 +14,6 @@ export const intro = () => {
               document.getElementById('ctPage').scrollIntoView({behavior: 'smooth'});
             }}><img src={hire} alt="" className='hire'/>Contact me</button></Link>
         </div>
-        <img src={bg} alt='profile' className='bg'/>
     </section>
   )
 }
