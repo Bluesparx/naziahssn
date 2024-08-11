@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/naziahssn/static/css/main.ab873ae1.css",
-    "main.js": "/naziahssn/static/js/main.d4b8231b.js",
-    "static/media/profile.png": "/naziahssn/static/media/profile.4a20cb96aba9af2b41b5.png",
+    "main.js": "/naziahssn/static/js/main.55ad78f7.js",
+    "static/media/Nazia_Resume.pdf": "/naziahssn/static/media/Nazia_Resume.591baaf2eaa58a6c5a8d.pdf",
     "static/media/logo.png": "/naziahssn/static/media/logo.f747f752b62a8d1c723c.png",
-    "static/media/Nazia_Resume.pdf": "/naziahssn/static/media/Nazia_Resume.1d3b2ca141786877396a.pdf",
     "static/media/s2.PNG": "/naziahssn/static/media/s2.03dceda472ab9320a07d.PNG",
     "static/media/s5.PNG": "/naziahssn/static/media/s5.707a69878d6acbebf86e.PNG",
     "static/media/s3.PNG": "/naziahssn/static/media/s3.ff8e6d39e7f3501a5c61.PNG",
@@ -15,10 +14,10 @@
     "static/media/l3.PNG": "/naziahssn/static/media/l3.f7f0c248fae70e5e3916.PNG",
     "index.html": "/naziahssn/index.html",
     "main.ab873ae1.css.map": "/naziahssn/static/css/main.ab873ae1.css.map",
-    "main.d4b8231b.js.map": "/naziahssn/static/js/main.d4b8231b.js.map"
+    "main.55ad78f7.js.map": "/naziahssn/static/js/main.55ad78f7.js.map"
   },
   "entrypoints": [
     "static/css/main.ab873ae1.css",
-    "static/js/main.d4b8231b.js"
+    "static/js/main.55ad78f7.js"
   ]
 }
